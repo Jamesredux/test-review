@@ -21,3 +21,40 @@
 body {
 	padding-top: 40px;
 }
+
+table {
+	width: 80%;
+	border: 4px solid;
+}
+
+ th, td {
+ 	padding: 10px;
+ }
+
+ th {
+ 	border-top: 4px solid;
+ 	border-bottom: 4px solid;
+ 	text-align: center;
+ }
+
+ /*  conversation styles */
+
+ .conversation {
+ 	border: 2px solid #dedede;
+ 	background-color: #f1f1f1;
+ 	border-radius: 5px;
+ 	padding: 10px;
+ 	margin: 10px 0;
+ }
+
+ .darker {
+ 	border-color: #ccc;
+ 	background-color: #ddd;
+ }
+
+ .conversation::after {
+ 	content: "";
+ 	clear: both;
+ 	display: table;
+ }
+
