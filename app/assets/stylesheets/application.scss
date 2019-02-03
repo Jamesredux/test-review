@@ -58,3 +58,42 @@ table {
  	display: table;
  }
 
+ .section-title {
+ 	border: 2px solid #777677;
+ 	background-color: #ffd3e8;
+ 	border-radius: 5px;
+ 	padding: 10px;
+ 	padding-bottom: 15px;
+ 	margin: 10px 0;
+ }
+
+table {
+	border: 2px solid #777677;
+	padding: 10px;
+	margin: 10px 0;
+
+}
+
+td {
+	padding: 10px;
+	font-size: 1.2em;
+}
+
+.questions {
+	padding-top: 10px;
+	border: 2px solid #777677;
+
+	li {
+		padding: 5px;
+	}
+}
+
+.btn-primary, .btn-info {
+	
+	margin: 10px;
+	padding: 10px;
+}
+
+.bottom-links {
+	padding-top: 20px;
+}
