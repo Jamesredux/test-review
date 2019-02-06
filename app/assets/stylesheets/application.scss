@@ -59,8 +59,8 @@ table {
  }
 
  .section-title {
- 	border: 2px solid #777677;
- 	background-color: #ffd3e8;
+ 	border: 2px solid #30424C;
+ 	background-color: #83B5D1;
  	border-radius: 5px;
  	padding: 10px;
  	padding-bottom: 15px;
@@ -96,4 +96,14 @@ td {
 
 .bottom-links {
 	padding-top: 20px;
+}
+
+.btn {
+	
+	margin: 5px;
+}
+
+.btn-link {
+	color: #30424C;
+	background-color: #F9AB55;
 }
